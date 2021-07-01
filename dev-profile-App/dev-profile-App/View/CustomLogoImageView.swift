@@ -1,0 +1,17 @@
+//
+//  CustomLogoImageView.swift
+//  dev-profile-App
+//
+//  Created by Юра Маргітич on 01.07.2021.
+//
+
+import UIKit
+
+class CustomLogoImageView: UIImageView {
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        layer.cornerRadius = 10.0
+    }
+
+}
